@@ -166,7 +166,7 @@ export default function TestimonialsSlider() {
                   {t.name}
                 </p>
                 <p className="text-xs text-gray-400 text-center">
-                  KhDemy Student
+                  KL.Learn Student
                 </p>
                 <div className="flex gap-0.5">
                   {Array.from({ length: 5 }).map((_, i) => (
