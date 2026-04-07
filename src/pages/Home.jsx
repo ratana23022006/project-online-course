@@ -5,6 +5,7 @@ import { FaFeather, FaBook } from "react-icons/fa";
 import CourseCard from "../components/CourseCard";
 import { GrFormNext } from "react-icons/gr";
 import { motion } from "framer-motion";
+import Student from "../components/Student";
 
 import { Globe, GraduationCap, BookOpen, Shield } from "lucide-react";
 import '../style/Home.css'
@@ -447,7 +448,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-gray-500 max-w-xl mx-auto mb-12"
           >
-            Whether you are exploring, learning, teaching, or managing — KhDemy has a dedicated experience built just for you.
+            Whether you are exploring, learning, teaching, or managing — KL.Learn has a dedicated experience built just for you.
           </motion.p>
 
           {/* Cards */}
@@ -501,7 +502,8 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section>   
+      <Student/>
     </div>
   );
 }
