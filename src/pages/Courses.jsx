@@ -112,7 +112,7 @@ export default function Courses() {
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
               <img
-                src={heroImg}
+                src="https://i.pinimg.com/1200x/6f/21/d3/6f21d35ca72200e1272d3cb271a3b703.jpg"
                 alt="Student learning online at KHdemy"
                 className="w-full h-auto object-contain drop-shadow-xl"
               />
@@ -131,7 +131,6 @@ export default function Courses() {
               </div>
             </motion.div>
           </motion.div>
-
         </div>
       </div>
     </section>
